@@ -1,0 +1,33 @@
+[includeIf "gitdir:~/Dev/OpenTalk/"]
+  path = ~/Dev/OpenTalk/.gitconfig_user
+
+[gpg]
+  program = gpg2
+
+[core]
+  autocrlf = input
+
+[credential]
+  helper = cache --timeout=10000
+
+[push]
+  default = simple
+  followTags = true
+
+[commit]
+  gpgsign = true
+
+[alias]
+  tag = tag -s
+
+[submodule]
+  fetchJobs = 10
+
+[init]
+  defaultBranch = main
+
+[pager]
+  branch = false
+
+[advicei]
+  detachedHead = false

@@ -1,0 +1,10 @@
+[pull]
+	rebase = true
+
+[include]
+  path = ./revione
+
+[includeIf "gitdir:~/Dev/OpenTalk/"]
+  path = ~/opentalk
+
+

@@ -1,0 +1,29 @@
+[pull]
+	rebase = true
+
+[includeIf "gitdir:~/Dev/revdev/"]
+  path = ~/Dev/revdev/.gitconfig
+
+[includeIf "gitdir:~/.zsh/"]
+  path = ~/.zsh/.gitconfig
+
+[includeIf "gitdir:~/Dev/revione/"]
+  path = ~/Dev/revione/.gitconfig
+
+[includeIf "gitdir:~/Dev/trying/"]
+  path = ~/Dev/trying/.gitconfig
+
+[includeIf "gitdir:~/Dev/trying-dev/"]
+  path = ~/Dev/trying-dev/.gitconfig
+
+[includeIf "gitdir:~/Dev/OpenTalk/"]
+  path = ~/Dev/OpenTalk/.gitconfig
+
+[includeIf "gitdir:~/Dev/Los\ Proyectos/"]
+  path = ~/Dev/Los Proyectos/.gitconfig
+
+
+
+
+[includeIf "gitdir:~/Dev/*" && !path =~ "~/Dev/OpenTalk/"]
+    path = ~/Dev/revione/.gitconfig
