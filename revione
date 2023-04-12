@@ -1,3 +1,6 @@
+[pull]
+	rebase = true
+	
 [user]
 	name = revione
 	email = revione@outlook.com

@@ -4,7 +4,7 @@
 [include]
   path = ./revione
 
-[includeIf "gitdir:~/Dev/OpenTalk/"]
-  path = ~/opentalk
+# [includeIf "gitdir:~/Dev/etwas/"]
+#   path = ~/etwas
 
 
